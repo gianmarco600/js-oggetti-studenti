@@ -19,6 +19,8 @@ for( k in studente){
 
 var arrStud = [];
 
+// l' array di oggetti studente è inizializzata vuota e viene popolata dall'utente aggiungendo studenti
+
 function addStud(){
     var nome = prompt('inserisci il nome dello studente che vuoi aggiungere');
     var cognome = prompt('inserisci il cognome dello studente che vuoi aggiungere');
